@@ -28,7 +28,7 @@ public:
 
   All previous links are erased first.
   @param[in] mean_deg the average of the Poisson distribution,
-  @param[out] the number of links created.
+  @param[out] number of links created.
  */
     size_t random_connect(const double&);
 /*! Resets node values with a vector of *n* new values.
