@@ -51,7 +51,7 @@ size_t Network::random_connect(const double& mean_deg){
 }
 
 size_t Network::set_values(const std::vector<double>& v){
-	
+		
 	size_t val = v.size();
 	
 	if (v.size() > values.size()){
